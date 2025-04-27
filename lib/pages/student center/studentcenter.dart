@@ -1,15 +1,22 @@
 import 'package:flutter/material.dart';
 
-class StudentCenter extends StatefulWidget {
+class StudentCenter extends StatelessWidget {
   const StudentCenter({super.key});
 
   @override
-  State<StudentCenter> createState() => _StudentcenterState();
-}
-
-class _StudentcenterState extends State<StudentCenter> {
-  @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: const Text('Student Center'), centerTitle: true),
+      body: const Center(
+        child: Text(
+          'Under Development',
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.grey,
+          ),
+        ),
+      ),
+    );
   }
 }

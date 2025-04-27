@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class PayQR extends StatelessWidget {
-  const PayQR({super.key});
+class Internet extends StatelessWidget {
+  const Internet({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('PayQR'), centerTitle: true),
+      appBar: AppBar(title: const Text('Internet'), centerTitle: true),
       body: const Center(
         child: Text(
           'Under Development',

@@ -18,7 +18,7 @@ class _MainNavState extends State<MainNav> {
   final List<Widget> _pages = [
     Home(), // 0
     StudentCenter(), // 1
-    Payqr(), // 2 (triggered by FAB)
+    PayQR(), // 2 (triggered by FAB)
     Investments(), // 3
     Services(), // 4
   ];

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'; // <-- Required for SystemUiOverlayStyle
+import 'package:flutter/services.dart';
 import 'package:unti/pages/login.dart';
 import 'package:unti/pages/investment/investments.dart';
 import 'package:unti/pages/student%20center/studentcenter.dart';
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         '/studentcenter': (context) => StudentCenter(),
         '/services': (context) => Services(),
         '/mainnav': (context) => MainNav(),
-        '/payqr': (context) => Payqr(),
+        '/payqr': (context) => PayQR(),
       },
     );
   }
